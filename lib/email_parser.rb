@@ -6,6 +6,6 @@ class EmailParser
   attr_accessor :data
 
 def newobj(data)
-  data
+  self.new(data)
 end
 end
