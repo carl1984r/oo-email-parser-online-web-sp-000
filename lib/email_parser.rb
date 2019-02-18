@@ -5,6 +5,9 @@
 class EmailParser
   attr_accessor :data
 
+def initialize
+  @data = data
+
 def newobj(data)
   self.new(data)
 end
