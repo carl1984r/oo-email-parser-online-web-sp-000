@@ -9,7 +9,7 @@ def initialize(data)
   @data = data
 end
 
-def newobj(data)
+def parse(data)
   self.new(data)
 end
 end
