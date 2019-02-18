@@ -10,6 +10,6 @@ def initialize(data)
 end
 
 def parse
-  data
+  data.split(%r{\,\W})
 end
 end
