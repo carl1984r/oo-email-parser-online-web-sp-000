@@ -7,6 +7,7 @@ class EmailParser
 
 def initialize
   @data = data
+end
 
 def newobj(data)
   self.new(data)
