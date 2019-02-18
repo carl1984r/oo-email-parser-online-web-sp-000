@@ -5,7 +5,7 @@
 class EmailParser
   attr_accessor :data
 
-def initialize
+def initialize(data)
   @data = data
 end
 
