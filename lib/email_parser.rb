@@ -10,6 +10,6 @@ def initialize(data)
 end
 
 def parse
-  self.new(data)
+  data
 end
 end
