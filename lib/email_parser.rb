@@ -10,6 +10,6 @@ def initialize(data)
 end
 
 def parse
-  data.split(%r{\,\W|\s})
+  data.split(%r{\,\W|\s}).uniq
 end
 end
