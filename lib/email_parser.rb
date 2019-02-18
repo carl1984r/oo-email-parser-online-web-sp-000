@@ -4,6 +4,7 @@
 # or whitespace (' ').
 class EmailParser
   attr_accessor :data
-def newobj
+def newobj(data)
   var = self.new(data)
+end
 end
